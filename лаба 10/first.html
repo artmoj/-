@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @import url(figcaption.css) (min-width:481px) and (max-width:768px);
+    </style>
+    <link rel="stylesheet" href="figcaption2.css">
+    <link rel="stylesheet" href="first.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="menu">
+        <div class="menu-header">
+            <h1>header</h1>
+            <label for="switch">&#9776;</label>
+        </div>
+        <input type="checkbox" id="switch" class="switch">
+        <div class="menu-items">
+            <a href="https://open.spotify.com/artist/5q1NzLZwErZ9ujzqZKL0YZ" target="_blank">social media</a>
+            <a href="https://open.spotify.com/artist/5q1NzLZwErZ9ujzqZKL0YZ" target="_blank">contacts</a>
+            <a href="https://open.spotify.com/artist/5q1NzLZwErZ9ujzqZKL0YZ" target="_blank">about us</a>
+            <a href="https://open.spotify.com/artist/5q1NzLZwErZ9ujzqZKL0YZ" target="_blank">benefits</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="header">FLEX-BOX</div>
+        <div class="cell1">
+            <iframe width="100%" height=""
+                src="https://www.youtube.com/embed/nTctuRId4-4?si=lxKsdA8JBku-PuQ9&amp;controls=0" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="100%" height=""
+                src="https://www.youtube.com/embed/uSdqkFAiJkQ?si=dY2qmgEaERKg0le1&amp;controls=0" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="100%" height=""
+                src="https://www.youtube.com/embed/EwjHqvAcLzA?si=HX77MB4-mDRbSG0i&amp;controls=0" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="cell2">Flexbox — это мощный инструмент CSS, который предназначен для создания гибких и адаптивных
+            макетов. Основная идея Flexbox — управлять расположением элементов вдоль одной из осей: горизонтальной (main
+            axis) или вертикальной (cross axis). Это особенно полезно, если нужно выровнять элементы, равномерно
+            распределить их или создать динамическую структуру.
+
+            Для использования Flexbox у родительского элемента нужно задать свойство display: flex;. После этого все его
+            дочерние элементы автоматически становятся флекс-элементами. Система работает по принципу контейнера и
+            элементов внутри него. Родительский элемент определяет поведение флекс-элементов с помощью специальных
+            свойств.
+
+            Одно из ключевых свойств Flexbox — это flex-direction, которое задаёт направление главной оси. Например,
+            можно располагать элементы горизонтально с помощью значения row (по умолчанию) или вертикально с column.
+            Существуют и обратные направления — row-reverse и column-reverse, которые меняют порядок элементов.
+
+            Для управления выравниванием используется свойство justify-content. Оно определяет, как элементы
+            располагаются вдоль главной оси. Например, с помощью значений flex-start, flex-end, center, space-between
+            или space-around можно задать разные типы распределения элементов, такие как выравнивание по краям,
+            центрирование или добавление отступов между ними.
+
+            По дополнительной оси элементы управляются через свойство align-items. Оно помогает выровнять элементы
+            внутри контейнера вертикально, если главная ось — горизонтальная. Значения flex-start, flex-end, center,
+            stretch или baseline задают, как именно элементы располагаются относительно контейнера.
+
+            Чтобы управлять выравниванием всего содержимого внутри контейнера, используется свойство align-content. Оно
+            работает, если флекс-элементы распределены на нескольких строках (например, когда используется flex-wrap:
+            wrap). Это свойство помогает задать отступы между строками или выровнять их относительно контейнера.
+
+            Флекс-элементы можно настраивать индивидуально с помощью свойства align-self. Оно переопределяет align-items
+            для конкретного элемента, позволяя выровнять его независимо от остальных. Ещё одно полезное свойство —
+            order, которое задаёт порядок отображения элементов в контейнере, даже если они идут в другом порядке в
+            HTML.
+
+            Свойство flex — это универсальный инструмент для управления размерами элементов. Оно объединяет три
+            составляющих: flex-grow (растяжение), flex-shrink (сжатие) и flex-basis (базовый размер). Это позволяет
+            гибко задавать, как элементы будут изменять свои размеры в зависимости от доступного пространства.
+
+            Flexbox делает работу с макетами простой и удобной, особенно когда нужно адаптировать интерфейс под разные
+            размеры экранов. С его помощью можно легко создать как простые центровки, так и сложные структуры, не
+            прибегая к хаотичным отступам и позиционированию.</div>
+        <div class="cell3">
+           <p>THRILL PILL "ничего не вечно"</p>
+            <audio controls src="THRILL_PILL_-_Nichego_ne_Vechno_73424401.mp3"></audio>
+            <p>pyrokinesis "почему да потому что"</p>
+            <audio controls src="Pyrokinesis_-_Pochemu_da_potomu_chto_66120253.mp3"></audio>
+            <p>вышел покурить "аутсайдер"</p>
+            <audio controls src="vyshel_pokurit_-_Autsajjder_68524213.mp3"></audio>
+        </div>
+    </div>
+
+
+    <div class="photoalbom">
+        <div class="photo">
+            <img src="photo/1.jpg" alt="">
+            <figcaption>три дня дождя</figcaption>
+        </div>
+        <div class="photo">
+            <img src="photo/2.jpg" alt="">
+            <figcaption>три дня дождя</figcaption>
+        </div>
+        <div class="photo">
+            <img src="photo/3.jpg" alt="">
+            <figcaption>три дня дождя</figcaption>
+        </div>
+        <div class="photo">
+            <img src="photo/4.jpg" alt="">
+            <figcaption>три дня дождя</figcaption>
+        </div>
+        <div class="photo">
+            <img src="photo/5.jpg" alt="">
+            <figcaption>три дня дождя</figcaption>
+        </div>
+        <div class="photo">
+            <img src="photo/6.jpg" alt="">
+            <figcaption>три дня дождя</figcaption>
+        </div>
+        <div class="photo">
+            <img src="photo/7.jpg" alt="">
+            <figcaption>три дня дождя</figcaption>
+        </div>
+        <div class="photo">
+            <img src="photo/8.jpg" alt="">
+            <figcaption>три дня дождя</figcaption>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="1.css"?>
+<groceries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog.xsd">
+    <menutitle>GROCERIES</menutitle>
+    <product>
+        <name>Potato</name>
+        <price>4 BYN</price>
+        <delivered>2024-12-06</delivered>
+    </product>
+    <product>
+        <name>Carrot</name>
+        <price>2 BYN</price>
+        <delivered>2024-12-08</delivered>
+    </product>
+    <product>
+        <name>Cucumber</name>
+        <price>11 BYN</price>
+        <delivered>2024-12-09</delivered>
+    </product>
+    <product>
+        <name>Tomato</name>
+        <price>12 BYN</price>
+        <delivered>2024-12-10</delivered>
+    </product>
+    <product>
+        <name>Onion</name>
+        <price>3 BYN</price>
+        <delivered>2024-12-05</delivered>
+    </product>
+</groceries>

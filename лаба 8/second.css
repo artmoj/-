@@ -1,0 +1,21 @@
+ul li{
+    float: left;
+}
+li{
+    width: 12.5%;
+    line-height: 40px;
+    border: solid 2px black;
+    margin-left: 0px;
+    list-style-type: none;
+    border-color: green;
+    background-color: yellow;
+    box-sizing: border-box;
+    text-align: center;
+}
+li:not(:nth-child(1)){
+    border-left: none;
+}
+a:link{
+    color: green;
+    text-decoration: none
+}

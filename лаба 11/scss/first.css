@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "header";
+  src: url(/fonts/ProtestRevolution-Regular.ttf);
+}
+.title1, .title2, .title3 {
+  font-size: 25px;
+  color: black;
+}
+
+.text {
+  font-size: 15.3846153846px;
+}
+
+.text2 {
+  font-size: 10px;
+}
+
+.header {
+  height: 15%;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  background-color: rgb(254, 178, 255);
+  border-radius: 8px 8px 0 0;
+  transition: all 1000ms;
+}
+.header:hover {
+  box-shadow: inset 0 0 3px black;
+  transition: all 500ms;
+}
+.header .link {
+  background-color: rgb(255, 212, 255);
+  border-radius: 5px;
+  text-align: center;
+  width: 25%;
+  border: 2px solid rgba(255, 255, 255, 0);
+  margin-right: 2%;
+  line-height: 70px;
+  font-family: "header";
+  font-size: 20px;
+  transition: all 1000ms;
+}
+.header .link:hover {
+  border: 2px solid white;
+  box-shadow: inset 0 0 10px white;
+  border-radius: 5px;
+  transition: box-shadow 200ms;
+}
+.header .link:active {
+  background-color: rgb(255, 255, 255);
+}
+.header .link a {
+  text-decoration: none;
+  color: rgb(216, 53, 53);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  display: flex;
+  margin-left: 2%;
+  font-size: 25px;
+}
+
+input {
+  border-radius: 5px;
+  background-color: rgb(192, 124, 255);
+  color: white;
+}
+
+button {
+  width: 30%;
+  margin-left: 10%;
+  background-color: rgb(192, 124, 255);
+  border-radius: 5px;
+}
+
+.form {
+  border: 2px solid black;
+  background-color: rgb(219, 181, 255);
+  border-radius: 0 0 7px 7px;
+  transition: all 1000ms;
+}
+
+form p {
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+label span {
+  width: 40%;
+}
+
+.form:hover {
+  box-shadow: inset 0 0 3px black;
+  transition: 500ms;
+}/*# sourceMappingURL=first.css.map */

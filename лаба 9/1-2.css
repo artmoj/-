@@ -1,0 +1,38 @@
+.grid{
+    display: grid;
+    grid-template-columns: 40% 40% 10%;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    height: 750px;
+    overflow: hidden;
+}
+.block1{
+    background-color: thistle;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 2px solid black;
+    }
+.block2{
+    background-color: burlywood;
+    border: 2px solid black;
+
+}
+.block3{
+    background-color: khaki;
+    border: 2px solid black;
+
+}
+.header{
+    background-color: cadetblue;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border: 2px solid black;
+    margin: 0;
+    font-size: 110px;
+
+}
+

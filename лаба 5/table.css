@@ -1,0 +1,34 @@
+
+table{
+  border-collapse: separate;
+    border-spacing: 0px;
+    margin: auto;
+}
+caption{
+  font-size: 1.2em;
+  text-align: center;
+}
+th, td{
+  border: solid 2px black;
+    empty-cells: hide;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+}
+td:first-child{
+  color: black;
+}
+thead th{
+  background-color: rgb(3, 3, 145);
+  
+}
+.c2{
+    background-color: #00BFF0 ; 
+   
+  }
+.c3{
+    background-color: purple ;  
+  }
+  .c4{
+    background-color: green ;  
+  }

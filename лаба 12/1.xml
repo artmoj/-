@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type="text/css" href="1.css"?> 
+<groceries>
+    <header>GROCERIES</header>
+    <product>
+        <name>Potato</name>
+        <price>4 BYN</price>
+        <delivered>06.12.24</delivered>
+    </product>
+    <product>
+        <name>Carrot</name>
+        <price>2 BYN</price>
+        <delivered>08.12.24</delivered>
+    </product>
+    <product>
+        <name>Cucumber</name>
+        <price>11 BYN</price>
+        <delivered>09.12.24</delivered>
+    </product>
+    <product>
+        <name>Tomato</name>
+        <price>12 BYN</price>
+        <delivered>10.12.24</delivered>
+    </product>
+     <product>
+        <name>Onion</name>
+        <price>3 BYN</price>
+        <delivered>05.12.24</delivered>
+    </product>
+</groceries>

@@ -1,0 +1,57 @@
+ul li{
+    float: left;
+}
+li{
+    list-style-type: none;
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 200px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+
+}
+.first{
+    background: url(facultet.png) no-repeat 0 0;
+    background-size: 50px;
+}
+.second{
+    background: url(facultet.png) no-repeat 0 0;
+    background-size: 50px;
+}
+.third{
+    background: url(facultet.png) no-repeat 0 0;
+    background-size: 50px;
+}
+.fourth{
+    background: url(facultet.png) no-repeat 0 0;
+    background-size: 50px;
+}
+.second:hover{
+    background-position: 0 -50px;
+}
+.third:hover{
+    background-position: 0 -150px;
+}
+.fourth:hover{
+    background-position: 0 -100px;
+}
+nav ul li ul li{
+    position: absolute;
+    line-height: 50px;
+    margin-left: -42px;
+    visibility: hidden;
+}
+.second{
+    position: relative;
+}
+.second:hover ul li{
+    visibility: visible;
+    position: relative;
+    margin-top: -2px;
+    background-color: white;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}

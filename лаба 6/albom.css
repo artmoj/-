@@ -1,0 +1,12 @@
+img{
+    width: 285px;
+    height:250px;
+}
+figure{
+    background: #9caab4;
+    padding: 10px;
+    width: 285px;
+    float: left;
+    margin: 0px 0px 10px 25px;
+    text-align: center;
+}

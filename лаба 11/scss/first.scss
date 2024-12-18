@@ -1,0 +1,133 @@
+@import 'varrible.scss';
+@font-face {
+    font-family: 'header';
+    src: url(/fonts/ProtestRevolution-Regular.ttf);
+}
+@function titlesize($kaf)
+{
+    @return ($size - 5)/ $kaf;
+}
+.title1, .title2, .title3 {
+    font-size: $size;
+    @if $size==30px{
+        color: gray;
+    }
+    @else {
+        color: black;
+    }
+}
+
+.text{
+    font-size: titlesize(1.3);
+}
+.text2{
+    font-size: titlesize(2);
+}
+
+
+.header {
+    height: 15%;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: $background;
+    border-radius: 8px 8px 0 0;
+    transition: all 1000ms;
+    
+    &:hover {
+        box-shadow: inset 0 0 3px black;
+        transition: all 500ms;
+    }
+
+    .link {
+        background-color: rgb(255, 212, 255);
+        border-radius: 5px;
+        text-align: center;
+        width: 25%;
+        border: 2px solid rgba(255, 255, 255, 0);
+        margin-right: 2%;
+        line-height: 70px;
+        font-family: 'header';
+        font-size: 20px;
+        transition: all 1000ms;
+
+        &:hover {
+            border: 2px solid white;
+            box-shadow: inset 0 0 10px white;
+            border-radius: 5px;
+            transition: box-shadow 200ms;
+        }
+
+        &:active {
+            background-color: rgb(255, 255, 255);
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(216, 53, 53);
+
+        }
+    }
+}
+
+%for_form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+%for_label {
+    display: flex;
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+%for_input {
+    border-radius: 5px;
+    background-color: rgb(192, 124, 255);
+    color: white;    
+}
+%for_button{
+    width: 30%;
+    margin-left: 10%;
+    background-color: rgb(192, 124, 255);
+    border-radius: 5px;
+}
+%for_div{
+    border: 2px solid black;
+    background-color: rgb(219, 181, 255);
+    border-radius: 0 0 7px 7px;
+    transition: all 1000ms;
+}
+
+form {
+    p{
+        margin-left:5%;
+        font-weight: bold;
+    }
+    @extend %for_form;
+}
+
+label {
+    span {
+        width: 40%;
+    }
+   
+    @extend %for_label;
+}
+
+input {
+    @extend %for_input;
+}
+button{
+    @extend %for_button;
+}
+.form{
+    @extend %for_div;
+    &:hover{
+        box-shadow: inset 0 0 3px black;
+        transition: 500ms;
+    }
+}

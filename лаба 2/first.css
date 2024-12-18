@@ -1,0 +1,41 @@
+.three{
+
+color: #800080;
+font-family: Monotype Corsiva;
+
+}
+
+.ok{
+
+
+color: #f00f00;
+font-family: 'Times New Roman', Times, serif;
+font-size: 18pt;
+}
+
+.okk{
+
+color: #ffff00;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20pt;
+
+
+}
+.okkk{
+
+color: #00ff00;
+font-family: 'Times New Roman', Times, serif;
+font-size: 22pt;
+
+
+}   
+
+
+h1, h2, h3{
+    color: #800080;
+    font-family: Monotype Corsiva;
+
+}
+table tr{
+    color: #0ff;
+}

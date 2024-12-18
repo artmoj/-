@@ -1,0 +1,23 @@
+.grid{
+    display: grid;
+    grid-template-columns: 50px 45% 45%;
+    grid-template-rows: 100%;
+    grid-gap: 5px;
+    height: 750px;
+    overflow: hidden;
+}
+.main{
+    background-color: aqua;
+    border: 2px solid black;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+.block1{
+    background-color: aquamarine;
+    border: 2px solid black;
+
+}
+.block2{
+    background-color: palevioletred;
+    border: 2px solid black;
+}

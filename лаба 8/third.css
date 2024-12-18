@@ -1,0 +1,40 @@
+li{
+    list-style-type: none;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: yellow;
+    width: 110px;
+    line-height: 30px;
+    margin-left: -47px;
+    padding: 0 0 0 5px;
+}
+.first{
+
+    list-style-type: none;
+    background-color: orange;
+    border: 2px dashed black;
+    width: 200px;
+    line-height: 30px;
+    box-sizing: border-box;
+    margin-left: 0;
+
+}
+nav ul li{
+    position: relative;
+}
+nav ul li ul{
+    position: absolute;
+    visibility: hidden;
+}
+nav ul:hover ul{
+    visibility: visible;
+}
+ul{
+    margin-top: 2px;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: black;
+}

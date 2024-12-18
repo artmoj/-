@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="second.xsl"?>
+<students>
+    <student>
+        <name>Мойса Артемий</name>
+        <subjects>
+            <subject>
+                <title>ОАиП</title>
+                <grade>9</grade>
+            </subject>
+            <subject>
+                <title>КЯР</title>
+                <grade>8</grade>
+            </subject>
+            <subject>
+                <title>ОПИ</title>
+                <grade>8</grade>
+            </subject>
+            <subject>
+                <title>МатАнализ</title>
+                <grade>6</grade>
+            </subject>
+            <subject>
+                <title>ЛинАлгебра</title>
+                <grade>8</grade>
+            </subject>
+        </subjects>
+    </student>
+    <student>
+        <name>Мачкалян Арсен</name>
+        <subjects>
+           <subject>
+                <title>ОАиП</title>
+                <grade>5</grade>
+            </subject>
+            <subject>
+                <title>КЯР</title>
+                <grade>7</grade>
+            </subject>
+            <subject>
+                <title>ОПИ</title>
+                <grade>5</grade>
+            </subject>
+            <subject>
+                <title>МатАнализ</title>
+                <grade>8</grade>
+            </subject>
+            <subject>
+                <title>ЛинАлгебра</title>
+                <grade>7</grade>
+            </subject>
+        </subjects>
+    </student>
+    <student>
+        <name>Васильев Антон</name>
+        <subjects>
+           <subject>
+                <title>ОАиП</title>
+                <grade>5</grade>
+            </subject>
+            <subject>
+                <title>КЯР</title>
+                <grade>2</grade>
+            </subject>
+            <subject>
+                <title>ОПИ</title>
+                <grade>5</grade>
+            </subject>
+            <subject>
+                <title>МатАнализ</title>
+                <grade>6</grade>
+            </subject>
+            <subject>
+                <title>ЛинАлгебра</title>
+                <grade>5</grade>
+            </subject>
+        </subjects>
+    </student>
+</students>

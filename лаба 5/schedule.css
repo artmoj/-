@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'write';
+    src: url(fonts/SixtyfourConvergence-Regular-VariableFont_BLED\,SCAN\,XELA\,YELA.ttf) format('woff');
+}
+
+@font-face {
+    font-family: 'cyber';
+    src: url(fonts/Edu_AU_VIC_WA_NT_Guides/EduAUVICWANTGuides-VariableFont_wght.ttf) format('woff');
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+
+td, th{
+    border: solid 2px black;
+    height: 30px;
+    padding: 0 15px;
+
+}
+.time{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(120, 53, 151);
+    background-color: rgb(255, 248, 187);
+    font-family: cyber;
+    
+}
+th{
+    color: rgb(189, 3, 183);
+   
+}
+.day{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(120, 4, 4);
+    background-color: rgb(255, 201, 201);
+    font-family: write;
+}
+tr:first-child {
+    background-color: rgb(224, 185, 255);
+}
+

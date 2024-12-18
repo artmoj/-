@@ -1,0 +1,15 @@
+ .row {
+    border: 2px solid black;
+}
+img {
+    width: 40%;
+    margin: 5% 30%;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    margin: 0 60px;
+}   

@@ -1,0 +1,141 @@
+th, td{
+   border: solid 2px black;
+}
+.table1{
+    border-collapse: collapse;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    background-image: url(pngwing.com.png);
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 10px;
+    
+}
+body{
+    background-image: url(photo_5242558848571663990_y.jpg) ;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-attachment: fixed;
+
+}
+.table2{
+    margin: auto;
+}
+
+.photo1{
+    width: 250px;
+    height: 500px;
+    background-image: url(morgen.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 520px;
+
+}
+.text1{
+    width: 250px;
+    height: 250px;
+}
+.text2{
+    width: 250px;
+    height: 250px;
+}
+
+.text3{
+    width: 250px;
+    height: 250px;
+}
+.text4{
+    width: 250px;
+    height: 250px;
+}
+.photo2{
+    width: 250px;
+    height: 500px;
+    background-image: url(morgen2.jpg);
+    background-repeat: no-repeat;
+    background-size: 450px 520px;
+}
+.link{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.albom{
+    width: 600px;
+    height: 600px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.img1{
+    width: 300px;
+    height: 300px;
+    float: left;
+    border-radius: 20px 0 0 0;
+    margin-top: 10px;
+
+}
+.img2{
+    width: 300px;
+    height: 300px;
+    float: right;
+    border-radius: 0 0 20px 0;
+}
+.txt{
+    text-indent: 25px;
+    height: 150px;
+}
+.tfirst{
+    margin: 20px 0 0 320px;
+}
+.tsecond{
+    margin: 0 320px 0 0;
+}
+
+
+
+.audio{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25%;
+    background-image: url(music.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 500ms;
+}
+.audio:hover{
+box-shadow: 0 0 15px black;
+}
+.mtext{
+    margin-left: 120px;
+    color: rgb(77, 77, 77);
+    vertical-align: bottom;
+}
+.audio:active{
+display: none;
+}
+.player{
+    margin: 5px;
+}
+.mzone{
+    width: 308px;
+    background-color:   rgb(255, 255, 255);
+    transition-duration: 1s;
+    border-radius: 25% 15px 15px 15px;
+}
+.mzone:hover{
+    background-color: rgb(201, 201, 201);
+    border-radius: 25% 15px 15px 15px;
+    box-shadow: 0 0 25px rgb(201, 201, 201);
+    transition-duration: 500ms;
+    transition-property:box-shadow, background-color;
+}
+
+

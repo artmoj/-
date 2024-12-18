@@ -1,0 +1,60 @@
+form {
+    background-color: indigo;
+    border: solid black 2px;
+    width: 400px;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+input[type="text"],
+input[type="email"] {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+
+}
+
+button {
+    background-color: navy;
+    box-shadow: 0 0 4px white;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.button {
+    text-align: right;
+    margin-right: 30px;
+
+}
+
+label,
+span {
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+    vertical-align: top;
+    margin-right: 15px;
+
+
+}
+
+button:hover {
+    background-color: rgb(87, 25, 141);
+    border: 1px solid #2b0052;
+}
+
+input[type="text"]:focus {
+    background-color: white;
+    color: black;
+}
+
+.check {
+    display: inline;
+}

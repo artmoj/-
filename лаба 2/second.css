@@ -1,0 +1,49 @@
+h3{
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+
+}
+
+.centre{
+
+    
+  text-align: center;
+}
+
+
+.sign {
+ 
+ padding: 30px;
+ text-align: center;  
+ width: 100%;
+}
+
+div {font-family: Arial, Helvetica, sans-serif;
+  
+ 
+  
+  padding: 20px;
+  }
+
+  *{background-color: #bdb76b;}
+    
+  
+
+  .RRR{
+    
+  
+    color: rgb(0, 250, 154);
+  }
+
+  body h3{
+    color: #ffff00;
+  }
+  span{
+ text-decoration: line-through;
+
+  }
+
+ 
+
+  

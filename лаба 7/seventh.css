@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "buttom";
+    src: url(RubikWetPaint-Regular.ttf) format("woff");
+  }
+  
+  div {
+    width: 1000px;
+    margin: auto;
+  }
+  h2{
+    text-align: center;
+    font-family: "buttom";
+    animation: 3s linear infinite textopacity;
+  }
+  @keyframes textopacity{
+  0%{opacity: 0;}
+  80%{opacity: 0.8;}
+  100%{opacity: 0;}
+  }
+
+  .textblock {
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.2), rgba(0, 0, 255, 0.2));
+    overflow: hidden;
+    font-family: "buttom";
+    transition-duration: 2s;
+  }
+  
+  .textblock:hover {
+    transition-duration: 5s;
+    color: #e60101;
+  }

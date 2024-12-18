@@ -1,0 +1,45 @@
+.p1{
+border: solid 2px;
+border-left-color: brown;
+border-top-color: orange;
+border-right-color: darkblue;
+border-bottom-color: yellow;
+
+}
+.p2{
+    border: solid 2px #007ba7;
+    border-width: 0px 2px 0px 2px;
+}
+.p3{
+border: rgb(0, 200, 255) dashed 2px;
+border-top: solid rgb(229, 43, 80) 2px;
+
+}
+.p4{
+    border: dotted 1px orange;
+}
+.p5{
+    border: solid darkblue 2px ;
+    border-right: purple dotted 2px;
+    border-left: purple dotted 2px;
+}
+.p6{
+    border: double #b3446c;
+}
+.p7{
+    border-top: #808000 1px dashed;
+    border-bottom: #ff7518 3px solid;
+}
+.p8{
+    border: #cc7722 double;
+    border-width: 0 0 2px 2px;
+}
+.p9{
+    border: #b5a642 ridge;
+    border-width: 2px 2px 0 0;
+    
+}
+.p10{
+    border: dotted rgb(0, 40, 0);
+    border-width: 0 5px 5px 5px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="registr.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <div>Регистрация постоянного клиента</div>
+        <p><label for="surname">Фамилия:</label>
+            <input type="text" id="surname">
+        </p>
+
+        <p><label for="name">Имя:</label>
+            <input type="text" id="name">
+        </p>
+
+        <p><label for="patronymic">Отчество:</label>
+            <input type="text" id="patronymic">
+        </p>
+
+        <p><label for="age">Возраст:</label>
+            <input type="text" id="age" min="0" max="120">
+        </p>
+
+        <p><span>Пол</span>
+
+            <label class="check">
+                <input type="checkbox" name="gender">
+                мужской
+            </label>
+
+            <label class="check"><input type="checkbox" name="gender">женский</label>
+
+        </p>
+        <p><label for="gmail">Email:</label>
+            <input type="email" id="gmail">
+        </p>
+
+        <p><label for="country">Страна проживания:</label>
+            <input type="text" id="country">
+        </p>
+
+        <p><label for="where">откуда вы узнали о нас?</label>
+            <select name="socialmedia" id="where">
+                <option value="TT">TikTok</option>
+                <option value="insta">Instagram</option>
+                <option value="VK">VK</option>
+                <option value="TG">Telegram</option>
+                <option value="YouTube">YouTube</option>
+            </select>
+
+        <p><label for="time">Дата заполнения</label>
+            <input type="date" id="time" name="datatime" min="2024-10-16" max="2040-10-16">
+
+        <p class="button">
+            <button type="submit">Регистрация</button>
+            <button type="reset">Отмена</button>
+        </p>
+
+    </form>
+</body>
+
+</html>

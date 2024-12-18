@@ -1,0 +1,144 @@
+
+.container{
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    flex-flow: column wrap;
+    box-sizing: border-box;
+}
+footer{
+    height: 15%;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: rgb(254, 178, 255);
+    border-radius: 0 0 7px 7px;
+    justify-content: center;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px  rgb(239, 101, 101);
+    font-family: 'header';
+    color:rgb(216, 53, 53);
+}
+main{
+    height:  70%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(10,10%);
+    grid-template-columns: repeat(10,10%);
+    box-sizing: border-box;
+
+}
+.title1, .title2, .title3, .imgtxt{
+border: 2px solid black;
+box-sizing: border-box;
+}
+.title1{
+    grid-column: 1/8;
+    grid-row: 1/2;
+    margin: 0.5%;
+    border-radius: 7px;
+    text-align: center;
+  
+    background-color: rgb(255, 212, 255);
+    font-family: fantasy;
+}
+.form{
+    grid-column: 8/11;
+    grid-row: 1/5;
+    margin: 1%;
+
+}
+.textblocks{
+    grid-column: 1/8;
+    grid-row: 2/6;
+    margin: 0.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.title2{
+    grid-column: 8/11;
+    grid-row: 5/6;
+    margin: 1%;
+    margin: 1%;
+    border-radius: 7px;
+    text-align: center;
+    background-color: rgb(255, 212, 255);
+    font-family: fantasy;
+}
+.title3{
+    grid-column: 1/8;
+    margin: 0.5%;
+    border-radius: 7px;
+    text-align: center;
+    background-color: rgb(255, 212, 255);
+    font-family: fantasy;
+}
+.imgs{
+    grid-column: 1/8;
+    grid-row: 7/11;
+    margin: 0.5%;
+    display: flex;
+    justify-content: space-around;
+}
+.imgtxt{
+    grid-column: 8/11;
+    grid-row: 6/11;
+    margin: 1%;
+    overflow: auto;
+    background-color: rgb(219, 181, 255);
+    border-radius: 0 7px 7px 0;
+}
+.logo{
+    height: 80%;
+    margin: 1% 0 1% 1%;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    width: 50%;
+
+}
+
+.text{
+    border: 2px solid black;
+    width: 28%;
+    height: 100%;
+    margin-top: -0.1%;
+}
+.text{
+    overflow: auto;
+    background-color:  rgb(219, 181, 255);
+} 
+  .imgtxt .first {
+    overflow: hidden;
+}
+.imgtxt .first img {
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin: 0.5%;
+    margin-bottom: 2%;
+    box-shadow: 0 0 10px white;
+}
+.imgtxt .first p {
+    display: inline-block;
+    width: 65%;
+    margin-left: 10px;
+}
+
+.imgtxt .second img {
+    margin: 0.5%;
+    float: left;
+    width: 30%;
+    height: 30%;
+    box-shadow: 0 0 10px white;
+
+}
+.imgtxt .second p {
+    display: inline-block;
+    width: 65%;
+    margin-left: 10px;
+}

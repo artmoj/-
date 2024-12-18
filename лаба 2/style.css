@@ -1,0 +1,40 @@
+h1{
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px}
+h2 {
+    color: #333;
+}
+p{
+    font-style: normal;
+    margin-bottom: 20px;
+}
+.www{
+
+color: brown;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bolder;
+font-size: large;
+
+
+}
+
+.custom-list {
+    border: 2px solid black;
+    padding: 20px;
+    width: fit-content;
+}
+.custom-list > ol > li:nth-child(1) > ul {list-style-type: disc;}
+.custom-list > ol > li:nth-child(2) > ul {list-style-type: square;}
+.custom-list > ol > li:nth-child(3) > ul {list-style-type: circle;}
+

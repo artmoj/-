@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "buttom";
+    src: url(RubikWetPaint-Regular.ttf) format("woff");
+  }
+  
+  div {
+    width: 1000px;
+    margin: auto;
+  }
+  h2{
+    text-align: center;
+    font-family: "buttom";
+    animation: 3s linear infinite textopacity;
+  }
+  @keyframes textopacity{
+  0%{opacity: 0;}
+  80%{opacity: 0.8;}
+  100%{opacity: 0;}
+  }
+
+  .ganster-car {
+    perspective: 1000px;
+  }
+  
+  .gelik {
+    margin: 20px 0 20px -170px;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  @keyframes halicopter1 {
+    0% {
+      transform: rotateY(60deg) translate(0px);
+    }
+  
+    33% {
+      transform: rotateY(0) translate(200px);
+    }
+  
+    66% {
+      transform: rotateY(0) translate(200px);
+    }
+  
+    100% {
+      transform: rotateY(60deg) translate(0px);
+    }
+  }
+  
+  @keyframes halicopter2 {
+    0% {
+      transform: rotateY(60deg) translate(0px);
+    }
+  
+    33% {
+      transform: rotateY(0) translate(400px);
+      filter: blur(0);
+    }
+  
+    66% {
+      transform: rotateY(0) translate(400px);
+      filter: blur(10px);
+    }
+  
+    100% {
+      transform: rotateY(60deg) translate(0px);
+    }
+  }
+  
+  @keyframes halicopter3 {
+    0% {
+      transform: rotateY(60deg) translate(0px);
+    }
+  
+    33% {
+      transform: rotateY(0) translate(600px);
+      filter: grayscale(0);
+    }
+  
+    66% {
+      transform: rotateY(0) translate(600px);
+      filter: grayscale(1);
+    }
+  
+    100% {
+      transform: rotateY(60deg) translate(0px);
+    }
+  }
+  
+  @keyframes halicopter4 {
+    0% {
+      transform: rotateY(60deg) translate(0px);
+    }
+  
+    33% {
+      transform: rotateY(0) translate(800px);
+      filter: invert(0);
+    }
+  
+    66% {
+      transform: rotateY(0) translate(800px);
+      filter: invert(1);
+    }
+  
+    100% {
+      transform: rotateY(60deg) translate(0px);
+    }
+  }
+  
+  .mers1 {
+    animation: halicopter1 5s infinite;
+  }
+  
+  .mers2 {
+    animation: halicopter2 5s infinite;
+  }
+  
+  .mers3 {
+    animation: halicopter3 5s infinite;
+  }
+  
+  .mers4 {
+    animation: halicopter4 5s infinite;
+  }

@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "buttom";
+    src: url(RubikWetPaint-Regular.ttf) format("woff");
+  }
+  
+  div {
+    width: 1000px;
+    margin: auto;
+  }
+  h2{
+    text-align: center;
+    font-family: "buttom";
+    animation: 3s linear infinite textopacity;
+  }
+  @keyframes textopacity{
+  0%{opacity: 0;}
+  80%{opacity: 0.8;}
+  100%{opacity: 0;}
+  }
+  button {
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+  }
+  
+  .b1 {
+    background-color: #ff9393;
+    border-radius: 15px;
+    border-color: #cf0c0c;
+    box-shadow: 0 0 5px black;
+    font-family: "buttom";
+    color: white;
+  }
+  
+  .b1:hover {
+    background-color: #000000;
+    border-radius: 0;
+    border-color: #000000;
+    border-style: solid;
+    box-shadow: 0 0 0 black;
+    font-family: "buttom";
+    color: white;
+  }
+  
+  .b2 {
+    background-color: #54ad63;
+    border-radius: 15px;
+    border-color: #2e21e5;
+    box-shadow: 0 0 5px black;
+    font-family: "buttom";
+    color: white;
+  }
+  
+  .b2:hover {
+    background-color: #ffffff;
+    border-radius: 0;
+    border-color: red;
+    outline: yellow 2px solid;
+    border-style: solid;
+    box-shadow: 0 0 0px black;
+    font-family: "buttom";
+    color: rgb(0, 0, 0);
+  }
+  
+  .b3 {
+    background-color: #1d1d1d;
+    border-radius: 15px;
+    border-color: #e60101;
+    box-shadow: 0 0 5px rgb(39, 39, 39);
+    font-family: "buttom";
+    color: white;
+  }
+  
+  .b3:hover {
+    background-color: #ffffff;
+    border-radius: 0;
+    border-color: green;
+    border-style: solid;
+    box-shadow: 0 0 0px black;
+    font-family: "buttom";
+    color: rgb(0, 0, 0);
+    border-left: none;
+    border-right: none;
+  }
+  
+  .b4 {
+    background-color: #f89d41;
+    border-radius: 15px;
+    border-color: #35d330;
+    box-shadow: 0 0 5px black;
+    font-family: "buttom";
+    color: white;
+  }
+  
+  .b4:hover {
+    background-color: #ffffff;
+    border-radius: 0;
+    border-color: blue;
+    border-style: solid;
+    box-shadow: 0 0 0px black;
+    font-family: "buttom";
+    color: rgb(0, 0, 0);
+    border-top: none;
+    border-bottom: none;
+  }
+  
+  .b5 {
+    width: 150px;
+    height: 50px;
+    background-color: #d093ff;
+    border-radius: 15px;
+    border-color: #bc65ff;
+    box-shadow: 0 0 5px black;
+    font-family: "buttom";
+    color: white;
+    margin-left: 410px;
+  }
+  
+  .b5:hover {
+    background-image: radial-gradient(yellow, rgb(213, 99, 239), aqua);
+    border-radius: 0;
+    border-style: none;
+    box-shadow: 0 0 0px black;
+    font-family: "buttom";
+    color: rgb(0, 0, 0);
+    border-left: none;
+    border-right: none;
+  }
