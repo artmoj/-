@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<section id="task1">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 300">
+        <path id="sinusoid"
+              d="M 0 150 C 50 50, 150 50, 200 150 C 250 250, 350 250, 400 150 C 450 50, 550 50, 600 150 C 650 250, 750 250, 800 150 C 850 50, 950 50, 1000 150"
+              stroke="red"
+              fill="none"
+              stroke-width="3" />
+        <text font-size="36" fill="blue">
+            <textPath href="#sinusoid" startOffset="42%" dy="-10">
+                <tspan dy="-5">это синусоида</tspan>
+            </textPath>
+        </text>
+    </svg>
+</section>
+<section id="task2">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 300">
+        <circle cx="200" cy="100" r="50" fill="blue"></circle>
+        <rect width="100" height="100" x="260" y="50" fill="red" />
+        <ellipse rx="100" ry="50" cx="470" cy="100" fill="green" />
+        <polygon points="580 160 640 50 700 160" fill="yellow" />
+        <polyline points="150 160 420 160 330 195 700 195" fill="none" stroke="purple" stroke-width="3" />
+    </svg>
+</section>
+<section id="task3">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 350">
+        <polygon points="300,50 225,150 275,150 200,250 275,250 275,305 325,305 325,250 400,250 325,150 375,150 300,50"
+                 style="fill:green;stroke:gray;stroke-width:3;" id="polygon1" />
+        <path d="M 290 80 a 10 10 0 1 1 20 0 a 10 10 0 1 1 -20 0" fill="red">
+            <animate attributeName="fill" values="red;yellow;blue;green;red" dur="1s" repeatCount="indefinite" />
+        </path>
+        <path d="M 270 120 a 10 10 0 1 1 20 0 a 10 10 0 1 1 -20 0" fill="#e100ff">
+            <animate attributeName="fill" values="#e100ff;blue;yellow;red;#e100ff" dur="1s" repeatCount="indefinite" />
+        </path>
+        <path d="M 310 130 a 10 10 0 1 1 20 0 a 10 10 0 1 1 -20 0" fill="yellow">
+            <animate attributeName="fill" values="yellow;red;blue;green;yellow" dur="1s" repeatCount="indefinite" />
+        </path>
+        <path d="M 330 200 a 10 10 0 1 1 20 0 a 10 10 0 1 1 -20 0" fill="red">
+            <animate attributeName="fill" values="red;green;yellow;blue;red" dur="1s" repeatCount="indefinite" />
+        </path>
+        <path d="M 280 180 a 10 10 0 1 1 20 0 a 10 10 0 1 1 -20 0" fill="blue">
+            <animate attributeName="fill" values="blue;yellow;green;red;blue" dur="1s" repeatCount="indefinite" />
+        </path>
+        <path d="M 280 225 a 10 10 0 1 1 20 0 a 10 10 0 1 1 -20 0" fill="#6fff00">
+            <animate attributeName="fill" values="#6fff00;red;blue;yellow;#6fff00" dur="1s" repeatCount="indefinite" />
+        </path>
+        <path d="M 240 220 a 10 10 0 1 1 20 0 a 10 10 0 1 1 -20 0" fill="yellow">
+            <animate attributeName="fill" values="yellow;blue;green;red;yellow" dur="1s" repeatCount="indefinite" />
+        </path>
+    </svg>
+</section>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 150">
+    <a href="#task1"><circle cx="200" cy="90" r="45" fill="red" /></a>
+    <a href="#task2"><circle cx="400" cy="90" r="45" fill="blue" /></a>
+    <a href="http://127.0.0.1:5500/fifth.html" target="blank"><circle cx="600" cy="90" r="45" fill="green" /></a>
+    <a href="http://127.0.0.1:5500/fourth.html" target="blank"><circle cx="800" cy="90" r="45" fill="yellow" /></a>
+</svg>
+</body>
+</html>
