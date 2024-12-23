@@ -1,0 +1,47 @@
+section {
+  display: block;
+}
+
+form {
+  margin: auto;
+  width: 400px;
+  height: 430px;
+  border: 2px solid black;
+}
+form h1 {
+  margin-left: 15px;
+}
+form section {
+  text-align: end;
+  margin-right: 70px;
+  margin-top: 10px;
+}
+form section label {
+  margin-right: 7px;
+}
+form section p {
+  width: 150px;
+  text-align: start;
+  margin-left: 15px;
+}
+form section .checkboxs {
+  width: 250px;
+  text-align: end;
+  margin-left: 155px;
+  margin-top: -50px;
+  margin-right: 0px;
+}
+form .faculty {
+  text-align: start;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+form .group, form .course {
+  text-align: start;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+form button {
+  margin-left: 15px;
+  margin-top: 15px;
+}/*# sourceMappingURL=second.css.map */

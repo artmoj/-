@@ -1,0 +1,47 @@
+section{
+    display: block;
+}
+form{
+    margin: auto;
+    width: 400px;
+    height: 430px;
+    border: 2px solid black;
+    h1{
+        margin-left: 15px;
+    }
+    section{
+       text-align: end;
+       margin-right: 70px;
+       margin-top: 10px;
+       label{
+        margin-right: 7px;
+       }
+       p{
+        width: 150px;
+        text-align: start;
+        margin-left: 15px;
+       }
+       .checkboxs{
+        width: 250px;
+        text-align: end;
+        margin-left: 155px;
+        margin-top: -50px;
+        margin-right: 0px;
+       } 
+
+    }
+    .faculty{
+        text-align: start;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+    .group, .course{
+        text-align: start;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    button{
+        margin-left: 15px;
+        margin-top: 15px;        
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/scss/second.css">
+</head>
+
+<body>
+    <form id="studentForm">
+        <h1>данные студента</h1>
+        <section>
+            <label for="name">имя студента</label>
+            <input type="text" id="name" name="name" placeholder="обязательно заполнить">
+        </section>
+        <section>
+            <label for="middlename">отчество студента</label>
+            <input type="text" id="middlename" name="middlename" placeholder="обязательно заполнить">
+        </section>
+        <section>
+            <label for="lastname">фамилия студента</label>
+            <input type="text" id="lastname" name="lastname" placeholder="обязательно заполнить">
+        </section>
+        <section>
+            <label for="email">адрес почты</label>
+            <input type="text" id="email" name="email">
+        </section>
+        <section>
+            <label for="phone">контактный телефон</label>
+            <input type="number" id="phone" name="phone">
+        </section>
+        <section>
+            <p>какую социальную сеть вы используете</p>
+            <p class="checkboxs">
+                <label><input type="checkbox" name="social" value="VK"> VK</label>
+                <label><input type="checkbox" name="social" value="Facebook"> Facebook</label>
+                <label><input type="checkbox" name="social" value="Instagram"> Instagram</label>
+            </p class="checkboxs">
+        </section>
+        <section class="faculty">
+            <label for="faculty">выберите факультет</label>
+            <select name="faculty" id="faculty">
+                <option value="ФИТ">ФИТ</option>
+                <option value="ТОВ">ТОВ</option>
+                <option value="ЛИД">ЛИД</option>
+                <option value="ЛХВ">ЛХВ</option>
+                <option value="ХТИТ">ХТИТ</option>
+                <option value="ИЭФ">ИЭФ</option>
+            </select>
+        </section>
+        <section class="group">
+            <label for="group">выберите группу</label>
+            <select name="group" id="group">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </section>
+        <section class="course">
+            <label for="course">выберите курс</label>
+            <select name="course" id="course">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </section>
+        <button type="submit">отправить</button>
+    </form>
+    <footer  id="outputFooter"></footer></footer>
+    <script src="/js/second.js"></script>
+</body>
+</html>

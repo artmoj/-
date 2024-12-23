@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "cute";
+  src: url(/fonts/Yellowtail-Regular.ttf);
+}
+h1 {
+  text-align: center;
+  font-family: "cute";
+}
+
+div {
+  display: flex;
+  width: 100%;
+}
+
+img {
+  width: 25%;
+  height: 100%;
+  align-self: center;
+  box-sizing: border-box;
+}
+img:nth-child(2) {
+  width: 50%;
+}
+
+.container {
+  position: relative;
+}
+.container img {
+  width: 100%;
+  height: 90%;
+  align-self: center;
+}
+.container p {
+  position: absolute;
+  top: 30%;
+  left: 4%;
+}
+
+.container2 {
+  position: relative;
+}
+.container2 img {
+  width: 100%;
+  height: 90%;
+  align-self: center;
+}
+.container2 #newimg {
+  display: none;
+}
+
+.borderimg {
+  outline: 10px solid rgb(66, 42, 21);
+  z-index: 1;
+}/*# sourceMappingURL=photoalbom.css.map */
